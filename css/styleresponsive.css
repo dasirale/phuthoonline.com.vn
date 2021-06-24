@@ -1,0 +1,426 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+ }
+ 
+ .container .grid .wide {
+    width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0 auto;
+}
+
+/* mobile <768px*/ 
+ @media screen and (max-width: 768px ){
+
+ul li {
+    width: 100%;
+    padding:  10px 5px;
+    /* display: inline-block; */
+}
+ul li a {
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration-line: none;
+    color: #3f3f3f;
+    font-size: 2.3em;
+}
+
+ul li a:hover {
+    color: rgb(100, 100, 100);
+    background-color: aquamarine;
+}
+
+.image-banner img{
+    width: 100%;
+}
+
+.slide  {
+    color: rgb(253, 253, 253);
+    float: left;
+    position: relative;
+}
+
+.slide  h1{
+    font-size: 2.5em;
+    position: absolute;
+    top: 18%;
+    left: 10%;
+}
+
+.slide p{
+    font-size: 1.5em;
+    top: 46%;
+    left: 10%;
+    position: absolute;
+}
+
+.slide {
+    width: 100%;
+}
+.slide img {
+    width: 100%;
+}
+
+.head_title {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(65, 65, 65);
+    font-size: 1.5em; 
+    padding: 1em;
+}
+
+.head_title p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(65, 65, 65);
+    font-size: 0.9em; 
+}
+
+.col img{
+    width: 100%;
+    line-height: 100%;
+}
+
+.col {
+    width: 100%;
+    padding: 15px;
+    background-color: rgb(245, 245, 245);
+}
+.image-content{
+    padding: 15px 0 15px 0;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.image-content h2 {
+    position: absolute;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:honeydew;
+    font-size: 2em;
+    text-align: center;
+}
+
+.col-3 img {
+    width: 100%;
+    height: auto;
+}
+
+}
+.travel-host-trust h3{
+    font-size: 1.8em;
+}
+.travel-host-trust {
+    font-size: 1.5em;
+}
+.travel-host-trust a{
+    padding-left: 0px;
+    color: blue;
+    text-decoration: none;
+}
+
+.travel-host-trust a:hover{
+    color:rgb(95, 82, 206)
+}
+.travel {
+    width: 100%;
+    padding: 15px;
+}
+
+.host {
+    width: 100%;
+    padding: 15px;
+}
+
+.trust {
+    width: 100%;
+    padding: 15px;
+}
+/* tablie >=768px and <992px*/ 
+ @media screen and (max-width: 992px ) and (min-width: 768px){
+ul li {
+    width: 100%;
+    padding:  1em;
+    display: inline;
+}
+ul li a {
+    padding: 1em 1em 1em 1em;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration-line: none;
+    color: #3f3f3f;
+    font-size: 1.2em;
+}
+
+ul li a:hover {
+    color: rgb(100, 100, 100);
+    background-color: aquamarine;
+}
+
+.nav-left {
+    float: left;
+}
+
+.nav-right {
+    float: right;
+}
+
+.image-banner img{
+    width: 100%;
+}
+
+.slide  {
+    color: rgb(253, 253, 253);
+    float: left;
+    position: relative;
+}
+
+.slide  h1{
+    font-size: 4em;
+    position: absolute;
+    top: 25%;
+    left: 10%;
+}
+
+.slide p{
+    font-size: 1.5em;
+    top: 56%;
+    left: 10%;
+    position: absolute;
+    /* display: none; */
+}
+
+.slide {
+    width: 100%;
+}
+.slide img {
+    width: 100%;
+}
+
+.head_title {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(65, 65, 65);
+    font-size: 1.5em; 
+    padding: 1em;
+}
+
+.head_title p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(65, 65, 65);
+    font-size: 0.9em; 
+}
+
+.col img{
+    width: 100%;
+    line-height: 100%;
+}
+
+.col {
+    width: 100%;
+    padding: 15px;
+    background-color: rgb(245, 245, 245);
+}
+.image-content{
+    padding: 15px 0 15px 0;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.image-content h2 {
+    position: absolute;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:honeydew;
+    font-size: 2em;
+    text-align: center;
+}
+
+.col-3 img {
+    width: 100%;
+    height: auto;
+}
+
+}
+.travel-host-trust h3{
+    font-size: 1.8em;
+}
+.travel-host-trust {
+    font-size: 1.5em;
+}
+.travel-host-trust a{
+    padding-left: 0px;
+    color: blue;
+    text-decoration: none;
+}
+
+.travel-host-trust a:hover{
+    color:rgb(95, 82, 206)
+}
+.travel {
+    width: 100%;
+    padding: 15px;
+}
+
+.host {
+    width: 100%;
+    padding: 15px;
+}
+
+.trust {
+    width: 100%;
+    padding: 15px;
+}
+ 
+/* PC >=992px */ 
+@media screen and (min-width: 992px ){
+ul li {
+    width: 100%;
+    /* padding:  1em; */
+    display: inline;
+}
+ul li a {
+    padding: 1em 2em 2em 2em;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration-line: none;
+    color: #3f3f3f;
+    font-size: 0.6em;
+}
+
+ul li a:hover {
+    color: rgb(100, 100, 100);
+    background-color: aquamarine;
+}
+
+.nav{
+    line-height: 2em;
+}
+
+.nav-left {
+    float: left;
+}
+
+.nav-right {
+    float: right;
+}
+
+.image-banner img{
+    width: 100%;
+}
+
+.slide  {
+    color: rgb(253, 253, 253);
+    float: left;
+    position: relative;
+}
+
+.slide  h1{
+    font-size: 4em;
+    position: absolute;
+    top: 25%;
+    left: 10%;
+}
+
+.slide p{
+    font-size: 1.5em;
+    top: 45%;
+    left: 10%;
+    position: absolute;
+    /* display: none; */
+}
+
+.slide {
+    width: 100%;
+}
+.slide img {
+    width: 100%;
+}
+
+.head_title {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(65, 65, 65);
+    font-size: 1em; 
+    padding: 1em;
+}
+
+.head_title p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(65, 65, 65);
+    font-size: 0.9em; 
+}
+
+.content-3-col {
+    display: flex;
+}
+.col img{
+    width: 100%;
+    line-height: 100%;
+}
+
+.col {
+    width: 100%;
+    padding: 15px;
+    background-color: rgb(245, 245, 245);
+}
+.image-content{
+    padding: 15px 0 15px 0;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.image-content h2 {
+    position: absolute;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:honeydew;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.col-3 img {
+    width: 100%;
+    height: auto;
+}
+
+
+.travel-host-trust h3{
+    font-size: 1.8em;
+}
+.travel-host-trust {
+    display: flex;
+    font-size: 1em;
+}
+.travel-host-trust a{
+    padding-left: 0px;
+    color: blue;
+    text-decoration: none;
+}
+
+.travel-host-trust a:hover{
+    color:rgb(95, 82, 206)
+}
+.travel {
+    width: 100%;
+    padding: 15px;
+}
+
+.host {
+    width: 100%;
+    padding: 15px;
+}
+
+.trust {
+    width: 100%;
+    padding: 15px;
+}
+}
+
+
+
+
+
+
+
+
+
+
